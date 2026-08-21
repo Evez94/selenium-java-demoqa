@@ -12,6 +12,6 @@ public class RadioButtonTest extends BaseTest {
         formsPage.clickFemaleRadioButton();
         boolean isFemaleRadioButtonSelected = formsPage.isFemaleSelected();
 
-        Assert.assertFalse(isFemaleRadioButtonSelected,"\n Female Radio Button is not Selected \n");
+        Assert.assertTrue(isFemaleRadioButtonSelected,"\n Female Radio Button is not Selected \n");
     }
 }
