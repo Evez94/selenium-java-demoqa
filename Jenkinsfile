@@ -2,8 +2,11 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout Code') {
+        stage('Clean Workspace & Checkout') {
             steps {
+                // Workspace-i sıfırdan təmizləyir
+                cleanWs()
+                // GitHub reposunu çəkir
                 git branch: 'main', url: 'https://github.com/Evez94/selenium-java-demoqa.git'
             }
         }
@@ -30,7 +33,7 @@ pipeline {
             echo 'Pipeline tamamlandı.'
         }
         success {
-            echo 'Bütün Selenium testləri uğurla keçdi!'
+            echo 'Testlər uğurla keçdi!'
         }
         failure {
             echo 'Testlərdə xəta baş verdi!'
