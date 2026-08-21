@@ -7,7 +7,7 @@ import static utilities.JavaScriptUtility.scrollToElementJS;
 
 public class PracticeFormPage extends FormsPage {
 
-    private By femaleRadioButton = By.id("gender-radio-2");
+    private By femaleRadioButton = By.cssSelector("label[for='gender-radio-2']");
 
     public void clickFemaleRadioButton(){
         scrollToElementJS(femaleRadioButton);
