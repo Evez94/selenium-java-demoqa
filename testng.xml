@@ -4,7 +4,7 @@
     <test name="DemoQA Tests">
         <classes>
             <!-- package_adi.ClassAdi şəklində öz test class-larınızı qeyd edin -->
-            <class name="com.demoqa.tests.TextBoxTest"/>
+            <class name="com.demoqa.tests.javascript.JavaScriptTest"/>
         </classes>
     </test>
 </suite>
