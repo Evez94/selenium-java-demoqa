@@ -16,6 +16,7 @@ WORKDIR /app
 
 # Faylları konteynerə kopyalayırıq
 COPY pom.xml .
+COPY testng.xml .
 COPY src ./src
 
 # Docker işə düşəndə testləri icra edir
