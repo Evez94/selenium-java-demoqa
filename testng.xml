@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite">
+    <test name="DemoQA Tests">
+        <classes>
+            <!-- package_adi.ClassAdi şəklində öz test class-larınızı qeyd edin -->
+            <class name="com.demoqa.tests.TextBoxTest"/>
+        </classes>
+    </test>
+</suite>

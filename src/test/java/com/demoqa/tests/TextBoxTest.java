@@ -3,9 +3,11 @@ package com.demoqa.tests;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
 public class TextBoxTest extends BaseTest {
     @BeforeMethod
+    @Test
     public void setUp() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless=new"); // Docker/Jenkins üçün ekransız rejim
