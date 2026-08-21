@@ -5,6 +5,11 @@
         <classes>
             <!-- package_adi.ClassAdi şəklində öz test class-larınızı qeyd edin -->
             <class name="com.demoqa.tests.javascript.JavaScriptTest"/>
+            <class name="com.demoqa.pages.forms.PracticeFormPage"/>
+            <class name="com.demoqa.pages.forms.RadioButtonTest"/>
+
+
+
         </classes>
     </test>
 </suite>
