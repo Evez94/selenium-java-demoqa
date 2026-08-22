@@ -8,7 +8,6 @@ import static utilities.JavaScriptUtility.scrollToElementJS;
 
 public class FormsPage extends HomePage {
 
-//    private By practiceFormMenuItem = By.xpath("//li[@id='item-0']//span[text() ='Practice Form']");
 private By practiceFormMenuItem = By.xpath("//span[normalize-space()='Practice Form']");
     public  PracticeFormPage gotoPracticeFormPage(){
         scrollToElementJS(practiceFormMenuItem);

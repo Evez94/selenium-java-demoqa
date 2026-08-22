@@ -7,6 +7,8 @@
             <class name="com.demoqa.tests.javascript.JavaScriptTest"/>
             <class name="com.demoqa.pages.forms.PracticeFormPage"/>
             <class name="com.demoqa.pages.forms.RadioButtonTest"/>
+            <class name="com.demoqa.pages.forms.CheckBoxTest"/>
+
 
 
 
