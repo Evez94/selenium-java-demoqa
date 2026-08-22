@@ -33,6 +33,7 @@ public class BasePage {
         }catch (InterruptedException exc)   {
             exc.printStackTrace();
         }
+        // Salam zuleyxa
     }
 
 }
